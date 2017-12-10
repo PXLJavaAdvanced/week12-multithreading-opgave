@@ -1,10 +1,7 @@
 package be.pxl.multithreading.voorbeeld1;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
-
-import be.pxl.multithreading.voorbeeld1.OutputColor;
 
 public class ProducerAndConsumer {
 	public static void main(String[] args) {
