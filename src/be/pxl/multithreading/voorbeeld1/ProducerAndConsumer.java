@@ -8,7 +8,7 @@ import be.pxl.multithreading.voorbeeld1.OutputColor;
 
 public class ProducerAndConsumer {
 	public static void main(String[] args) {
-		List<String> buffer = Collections.synchronizedList(new ArrayList<>());
+		List<String> buffer = new ArrayList<>();
 		MyProducer producer = new MyProducer(buffer, OutputColor.GREEN);
 		MyConsumer consumer1 = new MyConsumer(buffer, OutputColor.CYAN);
 		MyConsumer consumer2 = new MyConsumer(buffer, OutputColor.RED);
