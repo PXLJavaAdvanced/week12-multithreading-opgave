@@ -1,9 +1,9 @@
-package be.pxl.multithreading.voorbeeld1;
+package be.pxl.multithreading.voorbeeld1b;
 
 import java.util.List;
 import java.util.Random;
 
-import be.pxl.multithreading.voorbeeld1.OutputColor;
+import be.pxl.multithreading.voorbeeld1b.OutputColor;
 
 public class MyProducer extends Thread {
 

@@ -1,4 +1,4 @@
-package be.pxl.multithreading.voorbeeld1;
+package be.pxl.multithreading.voorbeeld1b;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -9,9 +9,9 @@ public class ProducerAndConsumer {
 		MyProducer producer = new MyProducer(buffer, OutputColor.GREEN);
 		MyConsumer consumer1 = new MyConsumer(buffer, OutputColor.CYAN);
 		MyConsumer consumer2 = new MyConsumer(buffer, OutputColor.RED);
-		
+
 		producer.start();
 		consumer1.start();
 		consumer2.start();
 	}
-}	
+}

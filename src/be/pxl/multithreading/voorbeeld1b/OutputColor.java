@@ -1,4 +1,4 @@
-package be.pxl.multithreading.voorbeeld1;
+package be.pxl.multithreading.voorbeeld1b;
 /**
  * Om de regels in de console verschillende kleuren te geven, kan
  * je het volgende installeren.
